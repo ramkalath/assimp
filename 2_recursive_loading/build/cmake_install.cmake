@@ -1,4 +1,4 @@
-# Install script for directory: /home/ram/workarea/assimp_work/reference/recursive_loading
+# Install script for directory: /home/ram/workarea/assimp_work/stable/2_recursive_loading
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ram/workarea/assimp_work/reference/recursive_loading/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ram/workarea/assimp_work/stable/2_recursive_loading/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

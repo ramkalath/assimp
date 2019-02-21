@@ -123,33 +123,6 @@ assimp_0/fast:
 	$(MAKE) -f CMakeFiles/assimp_0.dir/build.make CMakeFiles/assimp_0.dir/build
 .PHONY : assimp_0/fast
 
-include/Mesh.o: include/Mesh.cpp.o
-
-.PHONY : include/Mesh.o
-
-# target to build an object file
-include/Mesh.cpp.o:
-	$(MAKE) -f CMakeFiles/assimp_0.dir/build.make CMakeFiles/assimp_0.dir/include/Mesh.cpp.o
-.PHONY : include/Mesh.cpp.o
-
-include/Mesh.i: include/Mesh.cpp.i
-
-.PHONY : include/Mesh.i
-
-# target to preprocess a source file
-include/Mesh.cpp.i:
-	$(MAKE) -f CMakeFiles/assimp_0.dir/build.make CMakeFiles/assimp_0.dir/include/Mesh.cpp.i
-.PHONY : include/Mesh.cpp.i
-
-include/Mesh.s: include/Mesh.cpp.s
-
-.PHONY : include/Mesh.s
-
-# target to generate assembly for a file
-include/Mesh.cpp.s:
-	$(MAKE) -f CMakeFiles/assimp_0.dir/build.make CMakeFiles/assimp_0.dir/include/Mesh.cpp.s
-.PHONY : include/Mesh.cpp.s
-
 include/gamesettings.o: include/gamesettings.cpp.o
 
 .PHONY : include/gamesettings.o
@@ -267,9 +240,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... assimp_0"
 	@echo "... edit_cache"
-	@echo "... include/Mesh.o"
-	@echo "... include/Mesh.i"
-	@echo "... include/Mesh.s"
 	@echo "... include/gamesettings.o"
 	@echo "... include/gamesettings.i"
 	@echo "... include/gamesettings.s"

@@ -6,33 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/Mesh.cpp
-string
--
-fstream
--
-sstream
--
-iostream
--
-vector
--
-GL/glew.h
--
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-assimp/Importer.hpp
--
-assimp/scene.h
--
-assimp/postprocess.h
--
-shader.h
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/shader.h
-
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/gamesettings.cpp
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/gamesettings.cpp
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -44,7 +18,7 @@ iostream
 math.h
 -
 
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/gamesettings.h
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/gamesettings.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -56,7 +30,7 @@ iostream
 math.h
 -
 
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/modelloader.cpp
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/modelloader.cpp
 GL/glew.h
 -
 glm/glm.hpp
@@ -76,7 +50,7 @@ iostream
 vector
 -
 
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/modelloader.h
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/modelloader.h
 GL/glew.h
 -
 glm/glm.hpp
@@ -96,7 +70,7 @@ iostream
 vector
 -
 
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/shader.cpp
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/shader.cpp
 GL/glew.h
 -
 iostream
@@ -106,15 +80,15 @@ fstream
 cstring
 -
 shader.h
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/shader.h
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/shader.h
 sstream
 -
 
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/shader.h
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/shader.h
 GL/glew.h
 -
 
-/home/ram/workarea/assimp_work/reference/recursive_loading/src/main.cpp
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/src/main.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
@@ -128,11 +102,11 @@ glm/gtc/type_ptr.hpp
 iostream
 -
 ../include/shader.h
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/shader.h
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/shader.h
 ../include/modelloader.h
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/modelloader.h
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/modelloader.h
 ../include/gamesettings.h
-/home/ram/workarea/assimp_work/reference/recursive_loading/include/gamesettings.h
+/home/ram/workarea/assimp_work/stable/2_recursive_loading/include/gamesettings.h
 
 /usr/local/include/GLFW/glfw3.h
 stddef.h

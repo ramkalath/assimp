@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/assimp_0.dir/include/Mesh.cpp.o"
   "CMakeFiles/assimp_0.dir/include/gamesettings.cpp.o"
   "CMakeFiles/assimp_0.dir/include/modelloader.cpp.o"
   "CMakeFiles/assimp_0.dir/include/shader.cpp.o"

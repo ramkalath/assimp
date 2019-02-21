@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/include/Mesh.cpp" "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/build/CMakeFiles/assimp_0.dir/include/Mesh.cpp.o"
   "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/include/gamesettings.cpp" "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/build/CMakeFiles/assimp_0.dir/include/gamesettings.cpp.o"
   "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/include/modelloader.cpp" "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/build/CMakeFiles/assimp_0.dir/include/modelloader.cpp.o"
   "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/include/shader.cpp" "/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/build/CMakeFiles/assimp_0.dir/include/shader.cpp.o"

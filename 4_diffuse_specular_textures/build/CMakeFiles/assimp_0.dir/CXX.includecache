@@ -6,32 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/include/Mesh.cpp
-string
--
-fstream
--
-sstream
--
-iostream
--
-vector
--
-GL/glew.h
--
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-assimp/Importer.hpp
--
-assimp/scene.h
--
-assimp/postprocess.h
--
-shader.h
-/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/include/shader.h
-
 /home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/include/gamesettings.cpp
 glm/glm.hpp
 -

@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ram/workarea/assimp_work/reference/recursive_loading/./include -I/usr/local/include 
+CXX_INCLUDES = -I/home/ram/workarea/assimp_work/stable/2_recursive_loading/./include -I/usr/local/include 
 
