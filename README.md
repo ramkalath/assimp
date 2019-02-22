@@ -1,7 +1,7 @@
 # assimp
 Different model loadings with assimp
 
-![Sample Output]("./4_diffuse_specular_texture.png")
+![Sample Output](./4_diffuse_specular_texture.png)
 
 Dependencies:
 1) assimp
