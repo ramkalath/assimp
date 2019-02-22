@@ -1,9 +1,9 @@
 /*****************************************************************************
  * Author : Ram
- * Date : 24/Dec/2018
+ * Date : 21/Feb/2019
  * Email : ramkalath@gmail.com
  * Breif Description : model loading with assimp
- * Detailed Description : simple object loading with assimp abstracted. (TODO: ram) abstract window loading using SDL and not glfw; global game settings uniforms uploads; texture loading
+ * Detailed Description : simple model loading with diffuse texture only
  *****************************************************************************/
 // GLEW and GLFW includes
 #define GLEW_STATIC

@@ -1,9 +1,9 @@
 /*****************************************************************************
  * Author : Ram
- * Date : 24/Dec/2018
+ * Date : 21/Feb/2019
  * Email : ramkalath@gmail.com
- * Breif Description : model loading with assimp
- * Detailed Description : simple object loading with assimp abstracted. (TODO: ram) abstract window loading using SDL and not glfw; global game settings uniforms uploads; texture loading
+ * Breif Description : nanosuit model loading with assimp.
+ * Detailed Description : object loading with assimp with directional light
  *****************************************************************************/
 // GLEW and GLFW includes
 #define GLEW_STATIC
@@ -81,8 +81,8 @@ int main()
 		 // Uniforms
 		glUniformMatrix4fv(glGetUniformLocation(objectshader.program, "view"), 1, GL_FALSE, glm::value_ptr(globalsettings.view));
 		glUniformMatrix4fv(glGetUniformLocation(objectshader.program, "projection"), 1, GL_FALSE, glm::value_ptr(globalsettings.projection_perspective));
-		glUniform3f(glGetUniformLocation(objectshader.program, "LightDirection"), 0.0f, 0.0f, -10.0f);
-		glUniform3f(glGetUniformLocation(objectshader.program, "LightAmbient"), 0.0f, 0.0f, 0.0f);
+		glUniform3f(glGetUniformLocation(objectshader.program, "LightDirection"), 10.0f, 10.0f, -10.0f);
+		glUniform3f(glGetUniformLocation(objectshader.program, "LightAmbient"), 0.5f, 0.5f, 0.5f);
 		glUniform3f(glGetUniformLocation(objectshader.program, "LightDiffuse"), 1.0f, 1.0f, 1.0f);
 		glUniform3f(glGetUniformLocation(objectshader.program, "LightSpecular"), 1.0f, 1.0f, 1.0f);
 		glUniform3f(glGetUniformLocation(objectshader.program, "CameraPosition"), 0.0f, 0.0f, 0.0f);

@@ -41,5 +41,5 @@ void main()
     float spec = pow(max(dot(view_vector, reflected_vector), 0.0), Shini);
     vec3 specular_light = LightSpecular * spec * vec3(texture(specular_texture, TexCoords));
 
-	color = vec4((ambient_light + diffuse_light), 1.0f);
+	color = vec4((ambient_light + diffuse_light + specular_light), 1.0f);
 }
