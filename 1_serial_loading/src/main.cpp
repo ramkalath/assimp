@@ -17,6 +17,7 @@
 
 // Other popular includes
 #include <iostream>
+#include <chrono>
 
 // User created headers
 #include "../include/shader.h"
@@ -103,7 +104,12 @@ int main()
 		
 		// render ironman
 		glUniformMatrix4fv(glGetUniformLocation(objectshader.program, "model"), 1, GL_FALSE, glm::value_ptr(ironman.modelmatrix));
+
+		auto start = std::chrono::high_resolution_clock::now();
 		ironman.RenderModel();
+		auto stop = std::chrono::high_resolution_clock::now();
+		auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop-start);
+		std::cout << "time taken for rendering = " << duration.count() << " microseconds" << std::endl;
 		
 		// render teapot
 		glUniformMatrix4fv(glGetUniformLocation(objectshader.program, "model"), 1, GL_FALSE, glm::value_ptr(teapot.modelmatrix));
