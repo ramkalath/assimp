@@ -11,7 +11,7 @@ Dependencies:
 
 IMPORTANT:
 After you clone, follow these instructions to build
-1) cd <project>/src
+1) cd \<project\>/src
 2) make clean
 3) cd ../build
 4) cmake ..
