@@ -1,6 +1,8 @@
 # assimp
 Different model loadings with assimp
 
+[image](https://github.com/ramkalath/assimp/blob/master/4_diffuse_specular_textures/4_diffuse_specular_texture.png)
+
 Dependencies:
 1) assimp
 2) glfw3
