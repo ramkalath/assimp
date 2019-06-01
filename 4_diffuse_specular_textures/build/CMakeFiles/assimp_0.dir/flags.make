@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ram/workarea/assimp_work/stable/4_diffuse_specular_textures/./include -I/usr/local/include 
+CXX_INCLUDES = -I/home/ram/workarea/dump/assimp/4_diffuse_specular_textures/./include -I/usr/local/include 
 

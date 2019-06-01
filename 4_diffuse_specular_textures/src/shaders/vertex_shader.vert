@@ -16,9 +16,6 @@ uniform mat4 projection;
 out vec3 FragmentPosition;
 out vec3 Norm;
 
-out vec3 MatAmbi;
-out vec3 MatDiff;
-out vec3 MatSpec;
 out float Shini;
 out vec2 TexCoords;
 
@@ -29,10 +26,6 @@ void main()
 	FragmentPosition = vec3(model * vec4(position, 1.0f));
 	Norm = normalize(vec3(transpose(inverse(model)) * vec4(normal, 1.0f)));
 
-	MatAmbi = mat_ambient;
-	MatDiff = mat_diffuse;
-	MatSpec = mat_specular;
 	Shini = shininess;
-
 	TexCoords = tex_coords;
 }

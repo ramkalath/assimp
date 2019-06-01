@@ -17,9 +17,6 @@ uniform float materialshininess;
 
 in vec3 Norm;
 in vec3 FragmentPosition;
-in vec3 MatAmbi;
-in vec3 MatDiff;
-in vec3 MatSpec;
 in float Shini;
 in vec2 TexCoords;
 

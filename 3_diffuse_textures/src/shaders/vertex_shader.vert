@@ -15,7 +15,6 @@ uniform mat4 projection;
 // Outs
 out vec3 FragmentPosition;
 out vec3 Norm;
-
 out vec3 MatAmbi;
 out vec3 MatDiff;
 out vec3 MatSpec;
