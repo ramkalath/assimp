@@ -1,4 +1,4 @@
-# Install script for directory: /home/ram/workarea/dump/assimp/4_diffuse_specular_textures
+# Install script for directory: /home/ram/workarea/old/assimp/4_diffuse_specular_textures
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ram/workarea/dump/assimp/4_diffuse_specular_textures/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ram/workarea/old/assimp/4_diffuse_specular_textures/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
